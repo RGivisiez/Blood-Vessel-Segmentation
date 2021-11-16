@@ -29,17 +29,15 @@ Labels:
 ## Prerequisites:
 
 ```python
-  
 numpy
 opencv
 matplotlib
 tensorflow
 tensorflow-io
 scikit-learn
-
 ```
 
 ## Authors
+[Ronaldo](https://www.linkedin.com/in/ronaldo-givisiez/)
 
 [Thomas](http://linkedin.com/in/thomas-toshio-inoue-5240241b5)
-[Ronaldo](https://www.linkedin.com/in/ronaldo-givisiez/)
