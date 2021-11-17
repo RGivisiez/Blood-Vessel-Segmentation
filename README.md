@@ -21,8 +21,8 @@ Notice that, there is some blood vessel in the background that should be ignored
 
 Labels:
 - White: Segmentation made by hand. (Ground Truth)
-- Blue: Segmentation predicted by the algorithm. (True Postiive)
-- Green: Wrong segmentation predicted by the algorithm. (False Positive)
+- Blue: Correct segmentation predicted by the algorithm. (True Postiive)
+- Green: Incorrect segmentation predicted by the algorithm. (False Positive)
 
 ## Future implementations:
 
