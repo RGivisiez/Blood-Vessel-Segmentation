@@ -27,7 +27,7 @@ Labels:
 ## Future implementations:
 
 - [ ] Get better labels for image segmentation.
-- [ ] Obfuscate background blood vessels. Although the algorithm learns how to ignore the bottom vessels, removing them will speed up the train and improve the segmentation.
+- [ ] Obfuscate background blood vessels.
 - [ ] Splitting the vessels into different classes based on their diameter and changing the loss to focal loss should improve the segmentation of the tiny vessels.
 
 ## Prerequisites:
