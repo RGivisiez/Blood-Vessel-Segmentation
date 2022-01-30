@@ -26,8 +26,8 @@ Labels:
 
 - [ ] Get better labels for image segmentation.
 - [ ] Obfuscate background blood vessels.
-- [ ] Splitting the vessels into different classes based on their diameter and changing the loss to focal loss, this should improve the segmentation of the tiny vessels.
-- [ ] DDefine what will be measured after the segmentation and adapt a metric for it.  
+- [ ] Splitting the vessels into different classes based on their diameter and changing the loss to focal loss should improve the segmentation of the tiny vessels.
+- [ ] Define what will be measured after the segmentation and adapt a metric for it.  
 
 ## Prerequisites:
 
