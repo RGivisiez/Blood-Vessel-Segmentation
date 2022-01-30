@@ -15,7 +15,7 @@ Segmentation obtained using a simple U-net.
 ![Chicken Egg Blood Vessel Segmentation (WIP)](images/vessel-egg.png)
 |:--:| 
 | *Segmentation of Blood Vessels from Chicken Eggs* |
-Notice that, there is some blood vessel in the background that should be ignored by the algorithm.
+Notice that there is some blood vessel in the background that should be ignored by the algorithm.
 
 Labels:
 - White: Segmentation made by hand. (Ground Truth)
