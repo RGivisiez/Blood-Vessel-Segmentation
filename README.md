@@ -26,19 +26,12 @@ Labels:
 
 - [ ] Get better labels for image segmentation.
 - [ ] Obfuscate background blood vessels.
-- [ ] Splitting the vessels into different classes based on their diameter and changing the loss to focal loss should improve the segmentation of the tiny vessels.
-- [ ] Define what will be measured after the segmentation and adapt a metric for it.  
+- [ ] To imporove segmentation of tiny vessels, we can split the vessels into different classes based on their diameter and change the loss to focal loss.
+- [ ] Define what will be measured after the segmentation.  
 
 ## Prerequisites:
 
-```python
-numpy
-opencv
-matplotlib
-tensorflow
-tensorflow-io
-scikit-learn
-```
+See the docker file.
 
 ## Authors
 [Ronaldo](https://www.linkedin.com/in/ronaldo-givisiez/)
