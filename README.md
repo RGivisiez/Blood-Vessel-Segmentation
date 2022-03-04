@@ -6,6 +6,10 @@ The main problem with vessel segmentation is that the process takes a lot of tim
 
 Although it seems arduous to build our dataset from scratch, mainly because of the need to label all vessels manually, we showed that accurate results are obtained even using only a few images, five to be more precise. The results of the segmentation of the retina fundus eye and from chicken eggs are presented below, the latter is a work in progress.
 
+> **Objective:** Segment the blood vessels of the image, considering the speed of the algorithm and its accuracy.
+> 
+  > **The algorithm metric has not been decided yet.**
+
 ![Retina Blood Vessel Segmentation](images/vessel.png)
 |:--:| 
 | *Segmentation of Blood Vessels from Eye Fundus* |
@@ -28,9 +32,23 @@ Labels:
 - [ ] To imporove segmentation of tiny vessels, we can split the vessels into different classes based on their diameter and change the loss to focal loss.
 - [ ] Define what will be measured after the segmentation.  
 
-## Prerequisites:
+## How to use:
 
-See the docker file.
+1. Install [Docker][docker] on your local machine.
+2. Use the following command to create your docker image.
+  >  The docker file included in this repository considers that a GPU is available.
+  ```shell
+  docker image build -t user_name:Image_name path_to_dockerfile
+  ```
+3. Start the container with the following command line.
+  ```shell
+  docker run --gpus all -v $PWD:/project -w /project -p 8080:8080 -it --rm user_name:Image_name bash
+  ```
+4. Open the Jupyter Notebook with the following command line.
+  ```shell
+  jupyter notebook
+  ```
+
 
 ## Authors
 [Ronaldo](https://www.linkedin.com/in/ronaldo-givisiez/)
@@ -39,3 +57,4 @@ See the docker file.
 
 
 [imagej]:https://imagej.nih.gov/ij/
+[docker]:https://docs.docker.com/install/
