@@ -8,7 +8,7 @@ Although it seems arduous to build our dataset from scratch, mainly because of t
 
 > **Objective:** Segment the blood vessels of the image, considering the speed of the algorithm and its accuracy.
 > 
-  > **The algorithm metric has not been decided yet.**
+  > **The algorithm metric has not been decided yet. The metric needs to be chosen based on the measures that will be taken in the lab.**
 
 ![Retina Blood Vessel Segmentation](images/vessel.png)
 |:--:| 
