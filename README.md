@@ -13,7 +13,7 @@ Segmentation obtained using a simple U-net.
 
 ![Chicken Egg Blood Vessel Segmentation (WIP)](images/vessel-egg.png)
 |:--:| 
-| *Segmentation of Blood Vessels from Chicken Eggs* |
+| *Segmentation of Blood Vessels from Chicken Embryo* |
 Notice that there is some blood vessel in the background that should be ignored by the algorithm.
 
 Labels:
@@ -23,11 +23,11 @@ Labels:
 
 ## More About the Project
 
-Cancer cells grow randomly and quickly, creating blood vessels to capture more nutrients from the organism. Some drugs have an interesting behavior of constricting blood vessels, preventing blood from circulating; these drugs can be applied to cancer cells to prevent them from receiving nutrients, which leads to cancer cell death. At the Federal University of Minas Gerais (UFMG), the effects of these drugs are studied on the blood vessels of chicken eggs. Pictures of the blood vessels are taken before and after the application of the drug. By comparing these two pictures, it is possible to measure the blood vessels' growth or shrinkage. To enable this type of study, it is necessary to segment all the blood vessels from a set of images before any analysis can be done.
+Cancer cells grow randomly and quickly, creating blood vessels to capture more nutrients from the organism. Some drugs have an interesting behavior of constricting blood vessels, preventing blood from circulating; these drugs can be applied to cancer cells to prevent them from receiving nutrients, which leads to cancer cell death. At the Federal University of Minas Gerais (UFMG), the effects of these drugs are studied on the blood vessels of chicken embryos. Pictures of the blood vessels are taken before and after the application of the drug. By comparing these two pictures, it is possible to measure the blood vessels' growth or shrinkage. To enable this type of study, it is necessary to segment all the blood vessels from a set of images before any analysis can be done.
 
-The main problem with vessel segmentation is that the process takes a lot of time to be done manually, and automated algorithms such as [ImageJ][imagej] are not accurate and require a lot of human intervention. This project aims to guarantee reliable results with little to no human interference in blood vessel segmentation. The main idea is to use algorithms that are already known to work for retina blood vessel segmentation on our chicken egg image dataset; this will ensure more accurate segmentation than is obtained with [ImageJ][imagej], while giving more flexibility to adapt the algorithm to our needs.
+The main problem with vessel segmentation is that the process takes a lot of time to be done manually, and automated algorithms such as [ImageJ][imagej] are not accurate and require a lot of human intervention. This project aims to guarantee reliable results with little to no human interference in blood vessel segmentation. The main idea is to use algorithms that are already known to work for retina blood vessel segmentation on our chicken embryo image dataset; this will ensure more accurate segmentation than is obtained with [ImageJ][imagej], while giving more flexibility to adapt the algorithm to our needs.
 
-Although it seems arduous to build our dataset from scratch, mainly because of the need to label all vessels manually, we have shown that accurate results are obtained even using only a few images—five, to be more precise. The results of the segmentation of retina fundus eye and from chicken eggs are presented below; the latter is a work in progress.
+Although it seems arduous to build our dataset from scratch, mainly because of the need to label all vessels manually, we have shown that accurate results are obtained even using only a few images—five, to be more precise. The results of the segmentation of retina fundus eye and from chicken embryos are presented below; the latter is a work in progress.
 
   > **The algorithm metric has not been decided yet. The metric needs to be chosen based on the measures that will be taken in the lab.**
 
